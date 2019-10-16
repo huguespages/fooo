@@ -30,7 +30,7 @@ public class PricingController {
 		
 	}
 	@GetMapping("/getHello")
-	public string getHello() {
+	public String getHello() {
 		return HelloWorld;
 	}
 	
