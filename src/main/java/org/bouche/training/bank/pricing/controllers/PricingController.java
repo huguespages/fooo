@@ -29,9 +29,11 @@ public class PricingController {
 		return pricingService.getPricingById(pricingId);
 		
 	}
-	public void getHello() {
-		print("Hello World");
+	@GetMapping("/getHello")
+	public string getHello() {
+		return HelloWorld
 	}
+	
 	@PostMapping("/pricing")
 	public void addPricing(@RequestBody Pricing pricing)
 			throws InvalidPricingDefinitionException, PricingIdDuplicationException {
