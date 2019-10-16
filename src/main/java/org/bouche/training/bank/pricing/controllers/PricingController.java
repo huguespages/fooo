@@ -31,7 +31,7 @@ public class PricingController {
 	}
 	@GetMapping("/getHello")
 	public string getHello() {
-		return HelloWorld
+		return HelloWorld;
 	}
 	
 	@PostMapping("/pricing")
